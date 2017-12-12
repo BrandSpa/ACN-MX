@@ -1,0 +1,121 @@
+
+/* ==========================================================================
+	WordPress Required Styles
+============================================================================= */
+
+.alignleft {
+    float: left;
+    margin: 1em 1em 1em 0;
+}
+
+.alignright {
+    float: right;
+    margin: 1em 0 1em 1em;
+}
+
+.aligncenter {
+    display: block;
+    margin: 1em auto;
+}
+
+.alignnone {
+    float: none
+}
+
+img {
+	&.alignleft, 
+	&.alignright {
+	    display: inline
+	}
+}
+
+.bypostauthor, 
+.sticky, 
+.gallery-caption {
+	font-size: inherit;
+}
+
+.wp-caption {
+	max-width: 100%;
+
+	.wp-caption-text {
+		margin-top: 5px;
+	}
+}
+
+#commentform {
+	input#submit {
+		&:extend(.btn all);
+	}
+}
+
+/* ==========================================================================
+	WordPress Widgets
+============================================================================= */
+
+table#wp-calendar {
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: @line-height-computed;
+	border: 1px solid @table-border-color;
+
+	th, td {
+		padding: @table-condensed-cell-padding;
+		line-height: @line-height-base;
+		vertical-align: top;
+		border: 1px solid @table-border-color;
+	}
+
+	thead th {
+		vertical-align: bottom;
+		border-bottom: 1px solid @table-border-color;
+		background-color: @table-bg-accent;
+	}
+}
+
+.sidebar-block > ul li span.post-date {
+	display: block;
+	font-size: @font-size-base - 1;
+}
+
+.tagcloud {
+	font-weight: 400;
+}
+
+/* ==========================================================================
+	Contact Form 7
+============================================================================= */
+
+div {
+	&.wpcf7-response-output {
+		padding: @alert-padding;
+		margin: 0;
+		margin-bottom: @line-height-computed;
+		border: 1px solid transparent;
+		border-radius: @alert-border-radius;
+	}
+
+	&.wpcf7-mail-sent-ok {
+		background-color: @alert-success-bg;
+		border-color: @alert-success-border;
+		color: @alert-success-text;
+	}
+
+	&.wpcf7-mail-sent-ng {
+		background-color: @alert-danger-bg;
+		border-color: @alert-danger-border;
+		color: @alert-danger-text;
+	}
+
+	&.wpcf7-spam-blocked {
+		background-color: @alert-warning-bg;
+		border-color: @alert-warning-border;
+		color: @alert-warning-text;
+	}
+
+	&.wpcf7-validation-errors {
+		background-color: @alert-danger-bg;
+		border-color: @alert-danger-border;
+		color: @alert-danger-text;
+	}
+}

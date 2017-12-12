@@ -1,0 +1,3739 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Hydrogen\n"
+"POT-Creation-Date: 2015-08-27 22:11+0700\n"
+"PO-Revision-Date: 2015-08-27 22:11+0700\n"
+"Last-Translator: \n"
+"Language-Team: YouxiThemes\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.6\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../404.php:31
+msgid "Error 404"
+msgstr ""
+
+#: ../404.php:32
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: ../archive.php:43
+msgid "F d, Y"
+msgstr ""
+
+#: ../archive.php:46
+msgid "F, Y"
+msgstr ""
+
+#: ../archive.php:49
+msgid "Y"
+msgstr ""
+
+#: ../archive.php:61
+msgid "Archive"
+msgstr ""
+
+#: ../comments.php:13
+msgid "0 comments"
+msgstr ""
+
+#: ../comments.php:13 ../plugins-config/config-youxi-shortcodes.php:1296
+#: ../theme-includes/hydrogen-posts.php:165
+msgid "1 comment"
+msgstr ""
+
+#: ../comments.php:13 ../plugins-config/config-youxi-shortcodes.php:1296
+#: ../theme-includes/hydrogen-posts.php:165
+#, php-format
+msgid "% comments"
+msgstr ""
+
+#: ../comments.php:21
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: ../comments.php:22
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: ../comments.php:28
+msgid "Comments are closed."
+msgstr ""
+
+#: ../lib/class-styles-manager.php:46
+#: ../plugins-config/config-youxi-core.php:75
+#: ../plugins-config/config-youxi-shortcodes.php:860
+#: ../plugins-config/config-youxi-shortcodes.php:1012
+#: ../plugins-config/config-youxi-shortcodes.php:1521
+#: ../theme-includes/hydrogen-demo.php:16
+msgid "Default"
+msgstr ""
+
+#: ../lib/framework/customizer/controls/class-gallery-control.php:55
+msgid "Clear"
+msgstr ""
+
+#: ../lib/framework/customizer/controls/class-google-font-control.php:75
+msgid "Inherit"
+msgstr ""
+
+#: ../lib/framework/customizer/controls/class-google-font-control.php:86
+msgid "Select a Font Variant"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:19 ../lib/importer/class-importer.php:31
+msgid "No nav menu locations updated"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:57
+msgid "Frontpage display settings not imported."
+msgstr ""
+
+#: ../lib/importer/class-importer.php:67
+msgid "The WordPress importer class can't be found."
+msgstr ""
+
+#: ../lib/importer/class-importer.php:98
+msgid "Widgets import data could not be read."
+msgstr ""
+
+#: ../lib/importer/class-importer.php:144
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:166
+msgid "Site does not support widget"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:185
+msgid "Widget already exists"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:234
+msgid "Imported"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:237
+msgid "Imported to Inactive"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:244
+msgid "No Title"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:258
+msgid "Option Tree is not installed, theme options not imported."
+msgstr ""
+
+#: ../lib/importer/class-importer.php:271
+msgid "The supplied theme options data is not valid."
+msgstr ""
+
+#: ../lib/importer/class-importer.php:278
+msgid "Theme options successfully imported."
+msgstr ""
+
+#: ../lib/importer/class-importer.php:300
+msgid "The supplied customizer options data is not valid."
+msgstr ""
+
+#: ../lib/importer/class-importer.php:307
+msgid "Customizer options successfully imported."
+msgstr ""
+
+#: ../lib/importer/class-importer.php:328
+#: ../lib/importer/class-importer.php:480
+msgid "Youxi Demo Content Importer"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:328
+msgid "Youxi Importer"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:367
+msgid "Invalid request."
+msgstr ""
+
+#: ../lib/importer/class-importer.php:374
+msgid "Invalid demo content requested."
+msgstr ""
+
+#: ../lib/importer/class-importer.php:378
+msgid "Invalid import task."
+msgstr ""
+
+#: ../lib/importer/class-importer.php:415
+#, php-format
+msgid "The handler for the task %s is invalid."
+msgstr ""
+
+#: ../lib/importer/class-importer.php:428
+msgid "Importing posts, pages, comments, custom fields, categories, and tags."
+msgstr ""
+
+#: ../lib/importer/class-importer.php:432
+msgid "Importing theme options"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:436
+msgid "Importing customizer options"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:440
+msgid "Importing widgets"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:444
+msgid "Importing front page options"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:448
+msgid "Importing nav menu locations"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:466
+msgid "Import Completed Successfully"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:467
+msgid "Import Completed with {count} Failure(s)"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:468
+msgid ""
+"You have previously imported a demo content, are you sure you want to import "
+"again?"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:469
+msgid ""
+"You haven't finishid importing the demo content. If you leave now, the demo "
+"content will not be imported."
+msgstr ""
+
+#: ../lib/importer/class-importer.php:506
+msgid "Import"
+msgstr ""
+
+#: ../lib/importer/class-importer.php:520
+msgid "There are no available demo content to import."
+msgstr ""
+
+#: ../lib/vendor/class-envato-protected-api.php:67
+msgid "Please enter your Envato Marketplace Username."
+msgstr ""
+
+#: ../lib/vendor/class-envato-protected-api.php:71
+msgid "Please enter your Envato Marketplace API Key."
+msgstr ""
+
+#: ../lib/vendor/class-envato-protected-api.php:96
+msgid "The API \"set\" is a required parameter."
+msgstr ""
+
+#: ../lib/vendor/class-envato-protected-api.php:167
+msgid "The Envato Marketplace \"item ID\" is a required parameter."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:333
+msgid "Install Required Plugins"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:334
+msgid "Install Plugins"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:335
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:336
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:338
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:348
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:353
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:358
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:363
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %1$s plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:368
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:378
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugin."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %1$s "
+"plugins."
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:383
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:388
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:393
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:397
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:398
+msgid "Return to the dashboard"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:399
+#: ../lib/vendor/class-tgm-plugin-activation.php:3029
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:400
+#: ../lib/vendor/class-tgm-plugin-activation.php:2832
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:402
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:403
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:404
+msgid "Dismiss this notice"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:405
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:520
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:521
+msgid "Update Required"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:635
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:828
+#: ../lib/vendor/class-tgm-plugin-activation.php:3438
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:935
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:935
+#: ../lib/vendor/class-tgm-plugin-activation.php:938
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:938
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:1116
+#: ../lib/vendor/class-tgm-plugin-activation.php:2828
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:1881
+#, php-format
+msgctxt "%s = version number"
+msgid "TGMPA v%s"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2167
+msgid "Required"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2170
+msgid "Recommended"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2186
+msgid "WordPress Repository"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2189
+msgid "External Source"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2192
+msgid "Pre-Packaged"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2209
+msgid "Not Installed"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2213
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2215
+msgid "Active"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2221
+msgid "Required Update not Available"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2224
+msgid "Requires Update"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2227
+msgid "Update recommended"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2235
+#, php-format
+msgctxt "%1$s = install status, %2$s = update status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2280
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2283
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2286
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2289
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2371
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2379
+msgid "Installed version:"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2387
+msgid "Minimum required version:"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2399
+msgid "Available version:"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2422
+#, php-format
+msgid ""
+"No plugins to install, update or activate. <a href=\"%1$s\">Return to the "
+"Dashboard</a>"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2436
+msgid "Plugin"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2437
+msgid "Source"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2438
+#: ../plugins-config/config-youxi-one-pager.php:233
+msgid "Type"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2442
+msgid "Version"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2443
+msgid "Status"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2491
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Install %2$s"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2495
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Update %2$s"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2500
+#, php-format
+msgctxt "%2$s = plugin name in screen reader markup"
+msgid "Activate %2$s"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2570
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2603
+msgid "Install"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2609
+msgid "Update"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2612
+msgid "Activate"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2643
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2645
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2681
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2683
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2788
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:2814
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:3028
+msgid "Plugin activation failed."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:3362
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:3364
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:3365
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:3369
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:3370
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:3370
+#: ../lib/vendor/class-tgm-plugin-activation.php:3376
+msgid "Show Details"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:3370
+#: ../lib/vendor/class-tgm-plugin-activation.php:3376
+msgid "Hide Details"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:3371
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:3372
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:3375
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:3376
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:3377
+msgid "All installations have been completed."
+msgstr ""
+
+#: ../lib/vendor/class-tgm-plugin-activation.php:3378
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/parsers.php:42
+#: ../lib/vendor/wordpress-importer/parsers.php:72
+#: ../lib/vendor/wordpress-importer/parsers.php:80
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/parsers.php:84
+#: ../lib/vendor/wordpress-importer/parsers.php:89
+#: ../lib/vendor/wordpress-importer/parsers.php:279
+#: ../lib/vendor/wordpress-importer/parsers.php:464
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:90
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:99
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:91
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:134
+msgid "All done."
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:134
+msgid "Have fun!"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:135
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:156
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:178
+msgid "Import author:"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:189
+msgid "or create new user with login name:"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:192
+msgid "as a new user:"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:200
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:202
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:203
+msgid "- Select -"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:253
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:304
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:344
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:390
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:531
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:416
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:438
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:497
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:662
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:669
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:732
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:754
+msgid "Invalid file type"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:796
+msgid "The specified local file does not exists"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:802
+msgid "The output file can not be created"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:814
+#, php-format
+msgid "Attachment file is too large, limit is %s"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:846
+msgid "Remote server did not respond"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:852
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:859
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:864
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: ../lib/vendor/wordpress-importer/wordpress-importer.php:870
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:19
+msgid "Splash"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:23
+msgid "Splash Type"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:24
+msgid "Choose here the splash type to be displayed at the top of the page."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:26
+#: ../plugins-config/config-youxi-core.php:103
+#: ../plugins-config/config-youxi-core.php:152
+#: ../plugins-config/config-youxi-core.php:171
+#: ../plugins-config/config-youxi-core.php:262
+#: ../plugins-config/config-youxi-core.php:276
+#: ../plugins-config/config-youxi-core.php:304
+#: ../plugins-config/config-youxi-core.php:318
+#: ../plugins-config/config-youxi-one-pager.php:188
+#: ../plugins-config/config-youxi-one-pager.php:202
+#: ../plugins-config/config-youxi-one-pager.php:236
+#: ../plugins-config/config-youxi-one-pager.php:254
+#: ../plugins-config/config-youxi-portfolio.php:161
+#: ../plugins-config/config-youxi-portfolio.php:407
+#: ../plugins-config/config-youxi-shortcodes.php:466
+#: ../plugins-config/config-youxi-shortcodes.php:479
+msgid "None"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:27
+msgid "Hydrogen Slider"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:28
+msgid "Hydrogen Slider + Background"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:29
+#: ../plugins-config/config-youxi-core.php:213
+msgid "Custom Content"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:30
+msgid "Revolution Slider"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:36
+msgid "Splash Height"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:37
+msgid ""
+"Specify here the height of the splash section in pixels. (0 for fullscreen "
+"height)"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:47
+msgid "Slider Content"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:48
+msgid "Enter here the content of the slider."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:52
+msgid "Content"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:56
+msgid "Background"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:62
+msgid "Intro Text"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:63
+msgid "Enter here the slide intro text."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:67
+msgid "Intro Link URL"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:68
+msgid "Enter here the slide intro link URL."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:72
+msgid "Intro Link Behavior"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:73
+msgid "Choose here the behavior of the intro link."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:76
+msgid "Image Popup"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:77
+msgid "Iframe Popup (YouTube/Vimeo/Google Maps)"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:83
+msgid "Headline"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:84
+msgid "Enter here the slide headline."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:88
+msgid "Description"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:89
+msgid "Enter here the slide description."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:93
+msgid "Background Image"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:94
+msgid "Upload here the slide background image."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:100
+msgid "Mode"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:101
+msgid "Choose here the slide background mode."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:104
+#: ../plugins-config/config-youxi-core.php:172
+#: ../plugins-config/config-youxi-one-pager.php:255
+msgid "Fixed"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:105
+#: ../plugins-config/config-youxi-core.php:173
+#: ../plugins-config/config-youxi-one-pager.php:256
+msgid "Parallax"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:112
+msgid "Speed"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:113
+msgid "Specify here the slide background parallax speed."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:134
+msgid "Slider Duration"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:135
+msgid "Specify here the duration before each slide advance to the next slide."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:149
+msgid "Slider Background"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:150
+msgid "Choose here the slider background type."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:153
+#: ../plugins-config/config-youxi-one-pager.php:237
+msgid "Parallax Background"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:154
+#: ../plugins-config/config-youxi-one-pager.php:238
+#: ../plugins-config/config-youxi-portfolio.php:169
+msgid "Video"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:161
+msgid "Slider Background Image"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:162
+msgid "Upload here the background image file."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:168
+msgid "Slider Background Image Mode"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:169
+msgid "Choose here the background mode."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:180
+msgid "Slider Background Image Parallax Speed"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:181
+msgid "Specify here the background parallax speed."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:192
+msgid "Slider Background Video Source"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:194
+#: ../plugins-config/config-youxi-one-pager.php:277
+#: ../plugins-config/config-youxi-portfolio.php:203
+msgid "Choose here the hosted video source."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:200
+msgid "Slider Background Video Poster"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:201
+#: ../plugins-config/config-youxi-one-pager.php:284
+#: ../plugins-config/config-youxi-portfolio.php:210
+msgid ""
+"Upload here an image that will be used either as the poster or fallback for "
+"unsupported devices."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:206
+msgid "Revolution Slider ID/Slug"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:207
+msgid ""
+"Enter here your Revolution Slider ID/Slug. Make sure Revolution Slider is "
+"installed and activated."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:214
+msgid "Enter here the custom splash content."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:219
+msgid "Feedback Text"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:220
+msgid "Enter here the feedback text. Leave empty to hide."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:229
+#: ../plugins-config/config-youxi-one-pager.php:51
+#: ../plugins-config/config-youxi-shortcodes.php:1920
+msgid "Title"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:234
+#: ../plugins-config/config-youxi-one-pager.php:55
+#: ../plugins-config/config-youxi-portfolio.php:348
+msgid "Show Title"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:235
+msgid "Switch to display the page's title and subtitle."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:240
+msgid "Title Alignment"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:241
+msgid "Choose here the page's title text alignment."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:243
+#: ../plugins-config/config-youxi-one-pager.php:106
+#: ../plugins-config/config-youxi-shortcodes.php:848
+msgid "Left"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:244
+#: ../plugins-config/config-youxi-one-pager.php:107
+#: ../plugins-config/config-youxi-shortcodes.php:849
+msgid "Center"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:245
+#: ../plugins-config/config-youxi-one-pager.php:108
+#: ../plugins-config/config-youxi-shortcodes.php:850
+msgid "Right"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:252
+#: ../plugins-config/config-youxi-one-pager.php:76
+#: ../plugins-config/config-youxi-one-pager.php:96
+#: ../plugins-config/config-youxi-portfolio.php:54
+msgid "Subtitle"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:253
+msgid "Type here the page's subtitle."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:259
+msgid "Title Padding Top"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:260
+msgid "Choose here the page's title area top padding size."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:263
+#: ../plugins-config/config-youxi-core.php:277
+#: ../plugins-config/config-youxi-core.php:305
+#: ../plugins-config/config-youxi-core.php:319
+#: ../plugins-config/config-youxi-one-pager.php:189
+#: ../plugins-config/config-youxi-one-pager.php:203
+#: ../plugins-config/config-youxi-shortcodes.php:467
+#: ../plugins-config/config-youxi-shortcodes.php:480
+msgid "Quarter (35px at Maximum)"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:264
+#: ../plugins-config/config-youxi-core.php:278
+#: ../plugins-config/config-youxi-core.php:306
+#: ../plugins-config/config-youxi-core.php:320
+#: ../plugins-config/config-youxi-one-pager.php:190
+#: ../plugins-config/config-youxi-one-pager.php:204
+#: ../plugins-config/config-youxi-shortcodes.php:468
+#: ../plugins-config/config-youxi-shortcodes.php:481
+msgid "Half (70px at Maximum)"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:265
+#: ../plugins-config/config-youxi-core.php:279
+#: ../plugins-config/config-youxi-core.php:307
+#: ../plugins-config/config-youxi-core.php:321
+#: ../plugins-config/config-youxi-one-pager.php:191
+#: ../plugins-config/config-youxi-one-pager.php:205
+#: ../plugins-config/config-youxi-shortcodes.php:469
+#: ../plugins-config/config-youxi-shortcodes.php:482
+msgid "Three Quarters (105px at Maximum)"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:266
+#: ../plugins-config/config-youxi-core.php:280
+#: ../plugins-config/config-youxi-core.php:308
+#: ../plugins-config/config-youxi-core.php:322
+#: ../plugins-config/config-youxi-one-pager.php:192
+#: ../plugins-config/config-youxi-one-pager.php:206
+#: ../plugins-config/config-youxi-shortcodes.php:470
+#: ../plugins-config/config-youxi-shortcodes.php:483
+msgid "Full (140px at Maximum)"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:273
+msgid "Title Padding Bottom"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:274
+msgid "Choose here the page's title area bottom padding size."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:290
+#: ../plugins-config/config-youxi-one-pager.php:90
+#: ../plugins-config/config-youxi-one-pager.php:174
+#: ../plugins-config/config-youxi-portfolio.php:82
+#: ../plugins-config/config-youxi-shortcodes.php:998
+msgid "Layout"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:295
+#: ../plugins-config/config-youxi-one-pager.php:179
+msgid "Use Builder"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:296
+#: ../plugins-config/config-youxi-one-pager.php:180
+msgid ""
+"Switch ON when using the page builder, otherwise content will be messed up."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:301
+#: ../plugins-config/config-youxi-one-pager.php:185
+#: ../plugins-config/config-youxi-shortcodes.php:462
+msgid "Padding Top"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:302
+msgid "Choose here the page's content area top padding size."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:315
+#: ../plugins-config/config-youxi-one-pager.php:199
+#: ../plugins-config/config-youxi-shortcodes.php:475
+msgid "Padding Bottom"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:316
+msgid "Choose here the page's content area bottom padding size."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:331
+#: ../plugins-config/config-youxi-core.php:374
+#: ../plugins-config/config-youxi-one-pager.php:215
+#: ../plugins-config/config-youxi-portfolio.php:242 ../theme-options.php:56
+msgid "Style"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:336 ../theme-options.php:720
+msgid "Page Style"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:337
+msgid "Choose here a custom style for this page."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:343
+#: ../plugins-config/config-youxi-core.php:386
+#: ../plugins-config/config-youxi-portfolio.php:254 ../theme-options.php:2192
+msgid "Custom CSS"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:344
+msgid "Enter here your custom CSS code to add to this page."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:379
+msgid "Post Page Style"
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:380
+msgid "Choose here a custom style for the post page."
+msgstr ""
+
+#: ../plugins-config/config-youxi-core.php:387
+msgid "Enter here your custom CSS code to add to this post."
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:56
+msgid ""
+"Switch to display the title. If using the page builder, the title will be "
+"visible only if you have at least one container element."
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:61
+msgid "Element"
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:62
+msgid "Choose here the HTML element to use for the title."
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:77
+msgid "Type here the subtitle."
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:83
+msgid "Highlight Subtitle"
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:84
+msgid "Switch to highlight the subtitle."
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:91
+msgid ""
+"Choose here the layout. The title will be attached on the first container in "
+"this page block."
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:93
+#: ../plugins-config/config-youxi-portfolio.php:89 ../theme-options.php:615
+msgid "Fullwidth"
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:94
+msgid "Left Aligned"
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:95
+msgid "Right Aligned"
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:103
+msgid "Alignment"
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:104
+msgid "Choose here the title alignment."
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:115
+msgid "Show Counter"
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:116
+msgid "Switch to display a counter above the title."
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:122
+msgid "Column Type"
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:123
+msgid "Choose here the title column type."
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:135
+msgid "Title Size"
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:136
+msgid "Choose here the title column size."
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:147
+msgid "Content Size"
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:148
+msgid "Choose here the content column size."
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:159
+msgid "Gap Size"
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:160
+msgid "Choose here the gap size between columns."
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:186
+msgid "Choose here the page block's content area top padding size."
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:200
+msgid "Choose here the page block's content area bottom padding size."
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:220
+msgid "Page Block Style"
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:221
+msgid "Choose here a custom style for this page block."
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:229
+msgid "Background Media"
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:234
+msgid "Choose here the background media type."
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:244
+#: ../plugins-config/config-youxi-shortcodes.php:488
+#: ../plugins-config/config-youxi-shortcodes.php:1925
+msgid "Image"
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:245
+msgid "Upload here the backgrond image file."
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:251
+msgid "Image Mode"
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:252
+msgid "Choose here the background image mode."
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:263
+msgid "Image Parallax Speed"
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:264
+msgid "Specify here the background image parallax speed."
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:275
+#: ../plugins-config/config-youxi-portfolio.php:201
+msgid "Video Source"
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:283
+#: ../plugins-config/config-youxi-portfolio.php:209
+msgid "Video Poster"
+msgstr ""
+
+#: ../plugins-config/config-youxi-one-pager.php:317
+#, php-format
+msgid "%s (no translation - hidden)"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:50
+msgid "General"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:55
+msgid "Enter here the portfolio subtitle."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:61
+#: ../plugins-config/config-youxi-portfolio.php:125
+#: ../plugins-config/config-youxi-shortcodes.php:2268 ../theme-options.php:252
+msgid "URL"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:62
+msgid "Enter here the portfolio URL."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:68
+#: ../plugins-config/config-youxi-portfolio.php:126
+msgid "Client"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:69
+msgid "Enter here the portfolio client."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:74
+msgid "Client URL"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:75
+msgid "Enter here the portfolio client url."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:86
+msgid "Portfolio Layout"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:87
+msgid "Choose the portfolio page layout."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:90
+msgid "Page Builder"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:91 ../theme-options.php:573
+#: ../theme-options.php:620
+msgid "Left Sidebar"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:92 ../theme-options.php:578
+#: ../theme-options.php:625
+msgid "Right Sidebar"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:98
+msgid "Portfolio Sidebar Content"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:99
+msgid "Choose the portfolio page sidebar content."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:101
+#: ../plugins-config/config-youxi-portfolio.php:116
+msgid "Details"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:102
+#: ../plugins-config/config-youxi-portfolio.php:109
+msgid "Widget Area"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:110
+msgid "Choose the widget area to display on the sidebar."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:117
+msgid "Specify the portfolio details to show on the sidebar."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:121
+msgid "Detail Type"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:122
+msgid "Choose the portfolio detail type."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:124
+msgid "Categories"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:127
+msgid "Custom"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:133
+#: ../plugins-config/config-youxi-shortcodes.php:1512
+msgid "Label"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:134
+msgid "Enter the detail label."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:139
+msgid "Custom Value"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:140
+msgid "Enter the custom detail value."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:154
+msgid "Media"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:158
+msgid "Media Type"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:159
+msgid "Choose the type of media to display."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:162
+msgid "Inline Images"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:163
+#: ../plugins-config/config-youxi-shortcodes.php:1846
+msgid "Standard Slider"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:164
+#: ../plugins-config/config-youxi-shortcodes.php:1847
+msgid "MacBook Slider"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:165
+#: ../plugins-config/config-youxi-shortcodes.php:1849
+msgid "iPad Slider"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:166
+#: ../plugins-config/config-youxi-shortcodes.php:1848
+msgid "iPhone Slider"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:167
+#: ../plugins-config/config-youxi-shortcodes.php:1850
+msgid "Visible Nearby Slider"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:168
+msgid "Photoset"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:170
+msgid "Audio"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:176
+msgid "Images"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:177
+msgid "Choose here the images to use."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:183
+msgid "Video Type"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:184
+msgid "Choose here the video type."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:186
+msgid "Embedded (YouTube/Vimeo)"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:187
+#: ../plugins-config/config-youxi-portfolio.php:219
+msgid "Hosted"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:194
+msgid "Video Embed Code (YouTube/Vimeo)"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:195
+msgid "Enter here the video embed code (YouTube/Vimeo)."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:215
+msgid "Audio Type"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:216
+msgid "Choose here the audio type."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:218
+msgid "Embedded (SoundCloud)"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:226
+msgid "Embed Code (SoundCloud)"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:227
+msgid "Enter here the audio embed code (SoundCloud)."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:233
+msgid "Audio Source"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:235
+msgid "Choose here the hosted audio source."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:247
+msgid "Portfolio Page Style"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:248
+msgid "Choose here a custom style for the portfolio page."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:255
+msgid "Enter here custom CSS code to add to the portfolio page."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:330
+msgid "Excluded Categories"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:331
+msgid "Choose the portfolio categories to exclude."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:342
+msgid "Show Filter"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:343
+msgid "Switch to display the portfolio filter."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:349
+msgid "Switch to display the portfolio title below the image."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:354
+msgid "Enable Ajax Loading"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:355
+msgid ""
+"Switch to enable AJAX loading of portfolio items. All items will be shown "
+"when disabled."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:360
+msgid "Number of Items"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:361
+msgid "Enter the number of items to show initially/on each AJAX request."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:371
+msgid "Number of Columns"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:372
+msgid "Enter in how many columns should the portfolio items be displayed."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:381
+msgid "Order By"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:382
+msgid "Choose here how to order the portfolio items."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:384
+msgid "Post Date"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:385
+msgid "Menu Order"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:386
+msgid "Alphabhetically"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:392
+msgid "View Method"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:393
+msgid "Choose here the method to view the portfolio details."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:395
+msgid "Ajax Popup"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:396
+msgid "Portfolio Page"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:397
+msgid "Portfolio URL"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:403
+msgid "Thumbnails Link"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:404
+msgid "Choose how to show the portfolio link on thumbnails."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:408
+msgid "Show Direct Link"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:409
+msgid "Show Zoom and Permalink Buttons"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:414
+msgid "Thumbnails Size"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:415
+msgid "Choose the portfolio thumbnails size."
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:418
+msgid "Post Thumbnail"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:419
+#: ../theme-includes/hydrogen-portfolio.php:116
+msgid "Portfolio 4:3"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:420
+#: ../theme-includes/hydrogen-portfolio.php:122
+msgid "Portfolio 16:9"
+msgstr ""
+
+#: ../plugins-config/config-youxi-portfolio.php:421
+#: ../theme-includes/hydrogen-portfolio.php:128
+msgid "Portfolio Square"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:74
+#: ../plugins-config/config-youxi-shortcodes.php:77
+#: ../plugins-config/config-youxi-shortcodes.php:80
+#: ../plugins-config/config-youxi-shortcodes.php:88
+#: ../plugins-config/config-youxi-shortcodes.php:91
+#: ../plugins-config/config-youxi-shortcodes.php:94
+#: ../plugins-config/config-youxi-shortcodes.php:100
+#: ../plugins-config/config-youxi-shortcodes.php:103
+#: ../plugins-config/config-youxi-shortcodes.php:106
+#: ../plugins-config/config-youxi-shortcodes.php:112
+#: ../plugins-config/config-youxi-shortcodes.php:115
+#: ../plugins-config/config-youxi-shortcodes.php:118
+#: ../plugins-config/config-youxi-shortcodes.php:121
+#: ../plugins-config/config-youxi-shortcodes.php:124
+#: ../plugins-config/config-youxi-shortcodes.php:127
+msgid "Self"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:81
+#: ../plugins-config/config-youxi-shortcodes.php:109
+msgid "Text"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:82
+msgid "Button"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:85
+#: ../plugins-config/config-youxi-shortcodes.php:97
+msgid "Items"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:107
+#: ../plugins-config/config-youxi-shortcodes.php:1775
+#: ../plugins-config/config-youxi-shortcodes.php:2262 ../theme-options.php:266
+msgid "Icon"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:108
+msgid "Shadow Icon"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:212
+msgid "Title Element"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:213
+msgid "Choose the HTML element to use for the title."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:226
+msgid "Inline"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:227
+msgid "Switch to Display Text and Button in One Row"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:232
+msgid "Unboxed"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:233
+msgid "Switch to Remove Borders and Paddings"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:438
+msgid "Container Style"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:439
+msgid "Choose here a custom style for the contents of this container."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:449
+msgid "Transparent Background"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:450
+msgid "Switch to make the container background transparent."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:455
+msgid "Shadow Background"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:456
+msgid "Switch to make the container have a slightly shaded background."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:463
+msgid "Choose the container's top padding size."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:476
+msgid "Choose the container's bottom padding size."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:489
+msgid "Choose an image as the container's background."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:492
+#: ../plugins-config/config-youxi-shortcodes.php:494
+#: ../plugins-config/config-youxi-shortcodes.php:1928
+#: ../plugins-config/config-youxi-shortcodes.php:1930
+msgid "Choose an Image"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:493
+#: ../plugins-config/config-youxi-shortcodes.php:1929
+msgid "Insert URL"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:555
+msgid "Duration"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:556
+msgid "Specify the counter animation duration."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:566
+msgid "Thousands Separator"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:567
+msgid "Enter here the thousands separator."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:572
+msgid "Decimal Separator"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:573
+msgid "Enter here the decimal separator."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:578
+msgid "Decimals"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:579
+msgid "Specify the number of decimal places."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:694
+msgid "Auto Aspect Ratio"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:695
+msgid "Switch whether to control the Google Map aspect ratio automatically."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:845
+msgid "Heading Alignment"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:846
+msgid "Choose here the heading text alignment."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:857
+msgid "Heading Style"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:858
+msgid "Choose the heading style."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:861
+msgid "Alternate"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:862
+msgid "Separator"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:868
+msgid "Uppercase Letters"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:869
+msgid "Switch to make the text uppercase."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:875
+msgid "Remove Margins"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:877
+msgid "Choose here which margins to remove from the heading."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:879
+msgid "Top"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:880
+msgid "Bottom"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:899
+#: ../plugins-config/config-youxi-shortcodes.php:1682
+msgid "Extra CSS Classes"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:900
+msgid "Enter here your custom CSS classes to apply to the heading."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:906
+msgid "Separator Shadow Text"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:907
+msgid "Enter here the shadow text to display behind the separator title."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:925
+msgid "Styling"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:982
+#: ../plugins-config/config-youxi-shortcodes.php:1784
+msgid "Glyphicons"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:986
+#: ../plugins-config/config-youxi-shortcodes.php:1788
+msgid "Font Awesome"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:990
+#: ../plugins-config/config-youxi-shortcodes.php:1792
+msgid "Socicon"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:999
+msgid "Choose the icon box's layout."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1002
+msgid "Horizontal (Default)"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1003
+#: ../plugins-config/config-youxi-shortcodes.php:1860
+msgid "Vertical"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1008
+msgid "Icon Layout"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1009
+msgid "Choose the icon box's icon layout."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1013
+msgid "Circled"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1014
+msgid "Boxed"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1296
+#: ../theme-includes/hydrogen-posts.php:165
+msgid "no comments"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1513
+msgid "Enter here the progressbar label."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1518
+msgid "Size"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1519
+msgid "Choose here the progressbar size."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1522
+msgid "Large"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1523
+msgid "Small"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1524
+msgid "Extra Small"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1634
+msgid "Animation Offset"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1635
+msgid ""
+"Specify the distance from top of the screen before animation is triggered "
+"(%)."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1644
+msgid "Animation Duration"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1645
+msgid ""
+"Specify the default animation duration in milliseconds for all elements in "
+"this row (-1 means unspecified)."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1654
+msgid "Distribute Animation"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1655
+msgid ""
+"Switch to distribute chained animation delay between all elements in this "
+"row."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1660
+msgid "Animation Chain Duration"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1661
+msgid ""
+"Specify the chained animation duration to be distributed between all "
+"elements in this row (-1 means unspecified)."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1671
+msgid "Animation Chain Delay"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1672
+msgid ""
+"Specify the chained animation delay for all elements in this row (-1 means "
+"unspecified)."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1683
+msgid "Enter here your custom CSS classes to apply to the row."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1716
+msgid "Separator Size"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1717
+msgid "Choose the height of the separator."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1776
+msgid "Choose here the icon to display on the service item."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1823
+msgid "Allow the Slider to Go From Last to First Slide"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1824
+msgid "Randomize the Order of the Slides"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1825
+msgid "Navigate Forward by Clicking on Slide"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1826
+msgid "Enable Mouse Drag Navigation"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1827
+msgid "Enable Touch Navigation"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1842
+msgid "Slider Type"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1843
+msgid "Choose the slider type."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1855
+msgid "Slider Orientation"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1856
+msgid "Choose the slider orientation."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1859
+msgid "Horizontal"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1865
+msgid "Slider Transition"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1866
+msgid "Choose the slider transition."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1869
+msgid "Move"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1870
+msgid "Fade"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1875
+msgid "Transition Speed"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1876
+msgid "Enter the slider transition speed."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1921
+msgid "Enter here the title of the slide."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1926
+msgid "Choose an image for the slide."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1934
+msgid "Video Slide"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1935
+msgid "Switch to make a video slide (YouTube/Vimeo)."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1940
+msgid "URL/Video URL"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:1941
+msgid "Enter the URL/Video URL (YouTube/Vimeo)."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:2255
+msgid "Social Profiles"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:2256
+msgid "Specify the social profiles of this team member."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:2264
+msgid "Choose here the profile icon."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:2269
+msgid "Enter here the profile URL."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:2302
+msgid "Social"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:2454
+msgid "Tweets Layout"
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:2455
+msgid "Choose here the Twitter layout mode."
+msgstr ""
+
+#: ../plugins-config/config-youxi-shortcodes.php:2457
+msgid "Tweets Slider"
+msgstr ""
+
+#: ../searchform.php:3
+msgid "Search"
+msgstr ""
+
+#: ../searchform.php:4
+msgid "To search type &amp; hit enter"
+msgstr ""
+
+#: ../template-parts/content-none.php:3
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: ../template-parts/content-none.php:7
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: ../template-parts/content-none.php:12
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: ../template-parts/content-post.php:20
+msgid "Continue Reading"
+msgstr ""
+
+#: ../template-parts/content-post.php:30
+msgid "Pages:"
+msgstr ""
+
+#: ../template-parts/content-post.php:43
+msgid "Tagged"
+msgstr ""
+
+#: ../template-parts/portfolio/index.php:45
+#: ../template-parts/portfolio/index.php:49
+msgid "All"
+msgstr ""
+
+#: ../theme-includes/hydrogen-demo.php:33
+#: ../theme-includes/hydrogen-wp.php:285
+msgid "Dark"
+msgstr ""
+
+#: ../theme-includes/hydrogen-portfolio.php:193
+msgid "The portfolio index template can not be found."
+msgstr ""
+
+#: ../theme-includes/hydrogen-portfolio.php:197
+msgid "The portfolio posts request is invalid."
+msgstr ""
+
+#: ../theme-includes/hydrogen-posts.php:93
+#: ../theme-includes/hydrogen-posts.php:107
+msgid "&larr; Previous"
+msgstr ""
+
+#: ../theme-includes/hydrogen-posts.php:94
+#: ../theme-includes/hydrogen-posts.php:110
+msgid "Next &rarr;"
+msgstr ""
+
+#: ../theme-includes/hydrogen-posts.php:176
+#: ../theme-includes/hydrogen-posts.php:177
+msgid ", "
+msgstr ""
+
+#: ../theme-includes/hydrogen-posts.php:209
+msgid "Pingback:"
+msgstr ""
+
+#: ../theme-includes/hydrogen-posts.php:209
+#: ../theme-includes/hydrogen-posts.php:236
+msgid "Edit"
+msgstr ""
+
+#: ../theme-includes/hydrogen-posts.php:227
+#, php-format
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../theme-includes/hydrogen-posts.php:234
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: ../theme-includes/hydrogen-posts.php:258
+#: ../theme-includes/hydrogen-posts.php:260
+msgctxt "noun"
+msgid "Name"
+msgstr ""
+
+#: ../theme-includes/hydrogen-posts.php:265
+#: ../theme-includes/hydrogen-posts.php:267
+msgctxt "noun"
+msgid "Email"
+msgstr ""
+
+#: ../theme-includes/hydrogen-posts.php:272
+#: ../theme-includes/hydrogen-posts.php:274
+msgctxt "noun"
+msgid "URL"
+msgstr ""
+
+#: ../theme-includes/hydrogen-posts.php:281
+#: ../theme-includes/hydrogen-posts.php:283
+msgctxt "noun"
+msgid "Comment"
+msgstr ""
+
+#: ../theme-includes/hydrogen-templates.php:108
+msgid "Home"
+msgstr ""
+
+#: ../theme-includes/hydrogen-wp.php:77
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: ../theme-includes/hydrogen-wp.php:149
+msgid "Main Menu"
+msgstr ""
+
+#: ../theme-includes/hydrogen-wp.php:186
+#, php-format
+msgid "Footer Widget Area %d"
+msgstr ""
+
+#: ../theme-includes/hydrogen-wp.php:188
+#, php-format
+msgid "This is footer widget area #%d"
+msgstr ""
+
+#: ../theme-includes/hydrogen-wp.php:284
+msgid "Light"
+msgstr ""
+
+#: ../theme-options.php:32
+msgid "Header"
+msgstr ""
+
+#: ../theme-options.php:36
+msgid "Footer"
+msgstr ""
+
+#: ../theme-options.php:40
+msgid "Blog Titles"
+msgstr ""
+
+#: ../theme-options.php:44
+msgid "Blog Elements"
+msgstr ""
+
+#: ../theme-options.php:48
+msgid "Blog Layout"
+msgstr ""
+
+#: ../theme-options.php:52
+msgid "Custom Sidebars"
+msgstr ""
+
+#: ../theme-options.php:60
+msgid "Font"
+msgstr ""
+
+#: ../theme-options.php:64
+msgid "Twitter"
+msgstr ""
+
+#: ../theme-options.php:68 ../theme-options.php:2087
+msgid "Envato Credentials"
+msgstr ""
+
+#: ../theme-options.php:72
+msgid "Miscellaneous"
+msgstr ""
+
+#: ../theme-options.php:78 ../theme-options.php:170
+msgid "Logo"
+msgstr ""
+
+#: ../theme-options.php:79
+msgid "Choose here the logo to display on the header."
+msgstr ""
+
+#: ../theme-options.php:93
+msgid "Header Style"
+msgstr ""
+
+#: ../theme-options.php:94
+msgid "Choose here the custom style to apply to the header."
+msgstr ""
+
+#: ../theme-options.php:108
+msgid "Header Layout"
+msgstr ""
+
+#: ../theme-options.php:109
+msgid "Choose here the main header layout."
+msgstr ""
+
+#: ../theme-options.php:123
+msgid "Normal"
+msgstr ""
+
+#: ../theme-options.php:128
+msgid "Top Fixed"
+msgstr ""
+
+#: ../theme-options.php:133
+msgid "Bottom Fixed"
+msgstr ""
+
+#: ../theme-options.php:140
+msgid "Footer Text"
+msgstr ""
+
+#: ../theme-options.php:141
+msgid "Type here the text to show at the bottom of the footer."
+msgstr ""
+
+#: ../theme-options.php:155
+msgid "Footer Layout"
+msgstr ""
+
+#: ../theme-options.php:156
+msgid "Choose here the layout of the footer."
+msgstr ""
+
+#: ../theme-options.php:175
+msgid "Widgets"
+msgstr ""
+
+#: ../theme-options.php:180
+msgid "Logo - Widgets"
+msgstr ""
+
+#: ../theme-options.php:185
+msgid "Widgets - Logo"
+msgstr ""
+
+#: ../theme-options.php:192
+msgid "Footer Logo"
+msgstr ""
+
+#: ../theme-options.php:193
+msgid "Choose here the logo to display on the footer."
+msgstr ""
+
+#: ../theme-options.php:207
+msgid "Footer Logo Width"
+msgstr ""
+
+#: ../theme-options.php:208
+msgid "Specify here the width of the footer logo."
+msgstr ""
+
+#: ../theme-options.php:222
+msgid "Footer Widgets Columns"
+msgstr ""
+
+#: ../theme-options.php:223
+msgid "Choose here the number of columns to show on the footer widget area."
+msgstr ""
+
+#: ../theme-options.php:237
+msgid "Footer Social Icons"
+msgstr ""
+
+#: ../theme-options.php:238
+msgid "Enter here a list of social profiles to display on the footer"
+msgstr ""
+
+#: ../theme-options.php:253
+msgid "Enter here the social profile URL."
+msgstr ""
+
+#: ../theme-options.php:267
+msgid "Choose here the social profile icon."
+msgstr ""
+
+#: ../theme-options.php:282
+msgid "Index Title"
+msgstr ""
+
+#: ../theme-options.php:283
+msgid "Type here the blog index page title."
+msgstr ""
+
+#: ../theme-options.php:297
+msgid "Index Subtitle"
+msgstr ""
+
+#: ../theme-options.php:298
+msgid "Type here the blog index page subtitle."
+msgstr ""
+
+#: ../theme-options.php:312
+msgid "Category Title"
+msgstr ""
+
+#: ../theme-options.php:313
+msgid ""
+"Type here the blog category archive page title. Use <strong>{category}</"
+"strong> for the category name."
+msgstr ""
+
+#: ../theme-options.php:327
+msgid "Category Subtitle"
+msgstr ""
+
+#: ../theme-options.php:328
+msgid ""
+"Type here the blog category archive page subtitle. Use <strong>{category}</"
+"strong> for the category name."
+msgstr ""
+
+#: ../theme-options.php:342
+msgid "Tag Title"
+msgstr ""
+
+#: ../theme-options.php:343
+msgid ""
+"Type here the blog tag archive page title. Use <strong>{tag}</strong> for "
+"the tag name."
+msgstr ""
+
+#: ../theme-options.php:357
+msgid "Tag Subtitle"
+msgstr ""
+
+#: ../theme-options.php:358
+msgid ""
+"Type here the blog tag archive page subtitle. Use <strong>{tag}</strong> for "
+"the tag name."
+msgstr ""
+
+#: ../theme-options.php:372
+msgid "Author Title"
+msgstr ""
+
+#: ../theme-options.php:373
+msgid ""
+"Type here the blog author archive page title. Use <strong>{author}</strong> "
+"for the author name."
+msgstr ""
+
+#: ../theme-options.php:387
+msgid "Author Subtitle"
+msgstr ""
+
+#: ../theme-options.php:388
+msgid ""
+"Type here the blog author archive page subtitle. Use <strong>{author}</"
+"strong> for the author name."
+msgstr ""
+
+#: ../theme-options.php:402
+msgid "Date Title"
+msgstr ""
+
+#: ../theme-options.php:403
+msgid ""
+"Type here the blog date based archive page title. Use <strong>{date}</"
+"strong> for the date."
+msgstr ""
+
+#: ../theme-options.php:417
+msgid "Date Subtitle"
+msgstr ""
+
+#: ../theme-options.php:418
+msgid ""
+"Type here the blog date based archive page subtitle. Use <strong>{date}</"
+"strong> for the date."
+msgstr ""
+
+#: ../theme-options.php:432
+msgid "Search Title"
+msgstr ""
+
+#: ../theme-options.php:433
+msgid ""
+"Type here the blog search page title. Use <strong>{query}</strong> for the "
+"search query."
+msgstr ""
+
+#: ../theme-options.php:447
+msgid "Search Subtitle"
+msgstr ""
+
+#: ../theme-options.php:448
+msgid ""
+"Type here the blog search page subtitle. Use <strong>{query}</strong> for "
+"the search query."
+msgstr ""
+
+#: ../theme-options.php:462
+msgid "Time Format"
+msgstr ""
+
+#: ../theme-options.php:463
+msgid ""
+"Enter here the blog time format. Read this for reference: <a href=\"http://"
+"codex.wordpress.org/Function_Reference/the_time for reference\">http://codex."
+"wordpress.org/Function_Reference/the_time</a>"
+msgstr ""
+
+#: ../theme-options.php:477
+msgid "Index Meta Format"
+msgstr ""
+
+#: ../theme-options.php:478
+msgid ""
+"Enter here the post index meta text by using the following placeholders:\n"
+"<ul>\n"
+"<li><strong>{author}:</strong> The post author name</li>\n"
+"<li><strong>{datetime}:</strong> The post date and time as specified by Blog "
+"Time Format</li>\n"
+"<li><strong>{comments}:</strong> The post's number of comments</li>\n"
+"<li><strong>{categories}:</strong> The post categories</li>\n"
+"<li><strong>{tags}:</strong> The post tags</li>\n"
+"<li><strong>{dot}:</strong> A dot used as separator</li>\n"
+"</ul>"
+msgstr ""
+
+#: ../theme-options.php:500
+msgid "Single Post Meta Format"
+msgstr ""
+
+#: ../theme-options.php:501
+msgid ""
+"Enter here the single post meta text by using the following placeholders:\n"
+"<ul>\n"
+"<li><strong>{author}:</strong> The post author name</li>\n"
+"<li><strong>{datetime}:</strong> The post date and time as specified by Blog "
+"Time Format</li>\n"
+"<li><strong>{comments}:</strong> The post's number of comments</li>\n"
+"<li><strong>{categories}:</strong> The post categories</li>\n"
+"<li><strong>{tags}:</strong> The post tags</li>\n"
+"<li><strong>{dot}:</strong> A dot used as separator</li>\n"
+"</ul>"
+msgstr ""
+
+#: ../theme-options.php:523
+msgid "Show AddThis"
+msgstr ""
+
+#: ../theme-options.php:524
+msgid ""
+"Specify whether to show the AddThis sharing option below your blog post."
+msgstr ""
+
+#: ../theme-options.php:538
+msgid "Always Show Author"
+msgstr ""
+
+#: ../theme-options.php:539
+msgid ""
+"Specify whether to always show the post author even on single author blogs."
+msgstr ""
+
+#: ../theme-options.php:553
+msgid "Index Layout"
+msgstr ""
+
+#: ../theme-options.php:554
+msgid "Choose here the layout of the blog index page."
+msgstr ""
+
+#: ../theme-options.php:568
+msgid "Fulllwidth"
+msgstr ""
+
+#: ../theme-options.php:585
+msgid "Index Sidebar"
+msgstr ""
+
+#: ../theme-options.php:586
+msgid "Choose here the sidebar to display on the blog index page."
+msgstr ""
+
+#: ../theme-options.php:600
+msgid "Single Post Layout"
+msgstr ""
+
+#: ../theme-options.php:601
+msgid ""
+"Choose here the layout of the blog post page (can be overriden on each "
+"individual post)."
+msgstr ""
+
+#: ../theme-options.php:632
+msgid "Single Post Sidebar"
+msgstr ""
+
+#: ../theme-options.php:633
+msgid "Choose here the sidebar to display on the blog post page."
+msgstr ""
+
+#: ../theme-options.php:647
+msgid "Pagination"
+msgstr ""
+
+#: ../theme-options.php:648
+msgid "Choose here the type of the blog post pagination."
+msgstr ""
+
+#: ../theme-options.php:662
+msgid "Arrows"
+msgstr ""
+
+#: ../theme-options.php:667
+msgid "Numbered"
+msgstr ""
+
+#: ../theme-options.php:674
+msgid "Sidebar"
+msgstr ""
+
+#: ../theme-options.php:675
+msgid "Enter here an unlimited number of sidebars to use throughout the theme."
+msgstr ""
+
+#: ../theme-options.php:689
+msgid "Sidebar Description"
+msgstr ""
+
+#: ../theme-options.php:690
+msgid "Type here the sidebar description."
+msgstr ""
+
+#: ../theme-options.php:705
+msgid "Blog Style"
+msgstr ""
+
+#: ../theme-options.php:706
+msgid "Choose here the base custom style to apply to all blog index pages."
+msgstr ""
+
+#: ../theme-options.php:721
+msgid "Choose here the base custom style to apply to all pages."
+msgstr ""
+
+#: ../theme-options.php:735
+msgid "Portfolio Style"
+msgstr ""
+
+#: ../theme-options.php:736
+msgid "Choose here the base custom style to apply to all portfolio pages."
+msgstr ""
+
+#: ../theme-options.php:750
+msgid "Accent Color"
+msgstr ""
+
+#: ../theme-options.php:751
+msgid "Pick here the general accent color to be applied throughout the site."
+msgstr ""
+
+#: ../theme-options.php:765
+msgid "Custom Styles"
+msgstr ""
+
+#: ../theme-options.php:766
+msgid ""
+"Define here your own custom styles that can be applied and reused throughout "
+"the site."
+msgstr ""
+
+#: ../theme-options.php:780
+msgid "Header Background Color"
+msgstr ""
+
+#: ../theme-options.php:781
+msgid "Specify the custom header background color."
+msgstr ""
+
+#: ../theme-options.php:794
+msgid "Navigation Link Color"
+msgstr ""
+
+#: ../theme-options.php:795
+msgid "Specify the custom navigation link color."
+msgstr ""
+
+#: ../theme-options.php:808
+msgid "Navigation Submenu Arrow Color"
+msgstr ""
+
+#: ../theme-options.php:809
+msgid "Specify the navigation submenu arrow color."
+msgstr ""
+
+#: ../theme-options.php:822
+msgid "Footer Background Color"
+msgstr ""
+
+#: ../theme-options.php:823
+msgid "Specify the footer background color."
+msgstr ""
+
+#: ../theme-options.php:836
+msgid "Footer Text Color"
+msgstr ""
+
+#: ../theme-options.php:837
+msgid "Specify the footer text color."
+msgstr ""
+
+#: ../theme-options.php:850
+msgid "Footer Link Color"
+msgstr ""
+
+#: ../theme-options.php:851
+msgid "Specify the color of links in footer."
+msgstr ""
+
+#: ../theme-options.php:864
+msgid "Footer Link Hover Color"
+msgstr ""
+
+#: ../theme-options.php:865
+msgid "Specify the hover color of links in footer."
+msgstr ""
+
+#: ../theme-options.php:878
+msgid "Footer Social List Background Color"
+msgstr ""
+
+#: ../theme-options.php:879
+msgid "Specify the footer social list background color."
+msgstr ""
+
+#: ../theme-options.php:892
+msgid "Base Text Color"
+msgstr ""
+
+#: ../theme-options.php:893
+msgid "Specify the base text color."
+msgstr ""
+
+#: ../theme-options.php:906
+msgid "Muted Text Color"
+msgstr ""
+
+#: ../theme-options.php:907
+msgid "Specify the muted text color."
+msgstr ""
+
+#: ../theme-options.php:920
+msgid "Headings Text Color"
+msgstr ""
+
+#: ../theme-options.php:921
+msgid "Specify the headings text color."
+msgstr ""
+
+#: ../theme-options.php:934
+msgid "Headings Subtitle Text Color"
+msgstr ""
+
+#: ../theme-options.php:935
+msgid "Specify the headings subtitle text color."
+msgstr ""
+
+#: ../theme-options.php:948
+msgid "Base Background Color"
+msgstr ""
+
+#: ../theme-options.php:949
+msgid "Specify the base background color."
+msgstr ""
+
+#: ../theme-options.php:962
+msgid "Module Hover Text Color"
+msgstr ""
+
+#: ../theme-options.php:963
+msgid "Specify the modules hover background color."
+msgstr ""
+
+#: ../theme-options.php:976
+msgid "Icon Box Icon Hover Color"
+msgstr ""
+
+#: ../theme-options.php:977
+msgid "Specify the icon box shortcode icon hover color."
+msgstr ""
+
+#: ../theme-options.php:990
+msgid "Team Overlay Background Color"
+msgstr ""
+
+#: ../theme-options.php:991
+msgid "Specify the team shortcode overlay background color."
+msgstr ""
+
+#: ../theme-options.php:1004
+msgid "Team Overlay Background Opacity"
+msgstr ""
+
+#: ../theme-options.php:1005
+msgid "Specify the team shortcode overlay background opacity."
+msgstr ""
+
+#: ../theme-options.php:1018
+msgid "Team Popup Link Color"
+msgstr ""
+
+#: ../theme-options.php:1019
+msgid "Specify the team shortcode popup link color."
+msgstr ""
+
+#: ../theme-options.php:1032
+msgid "Team Popup Link Hover Color"
+msgstr ""
+
+#: ../theme-options.php:1033
+msgid "Specify the team shortcode popup link hover color."
+msgstr ""
+
+#: ../theme-options.php:1046
+msgid "Team Popup Link Hover Background Color"
+msgstr ""
+
+#: ../theme-options.php:1047
+msgid "Specify the team shortcode popup link hover background color."
+msgstr ""
+
+#: ../theme-options.php:1060
+msgid "Counter Label Text Color"
+msgstr ""
+
+#: ../theme-options.php:1061
+msgid "Specify the counter shortcode label color."
+msgstr ""
+
+#: ../theme-options.php:1074
+msgid "Testimonial Blockquote Text Color"
+msgstr ""
+
+#: ../theme-options.php:1075
+msgid "Specify the testimonial shortcode text color."
+msgstr ""
+
+#: ../theme-options.php:1088
+msgid "Testimonial Author Color"
+msgstr ""
+
+#: ../theme-options.php:1089
+msgid "Specify the testimonial shortcode author name color."
+msgstr ""
+
+#: ../theme-options.php:1102
+msgid "Twitter Text Color"
+msgstr ""
+
+#: ../theme-options.php:1103
+msgid "Specify the twitter shortcode text color."
+msgstr ""
+
+#: ../theme-options.php:1116
+msgid "Twitter Time Text Color"
+msgstr ""
+
+#: ../theme-options.php:1117
+msgid "Specify the twitter shortcode time text color."
+msgstr ""
+
+#: ../theme-options.php:1130
+msgid "Testimonial Slider Icon Color"
+msgstr ""
+
+#: ../theme-options.php:1131
+msgid "Specify the testimonial slider shortcode icon color."
+msgstr ""
+
+#: ../theme-options.php:1144
+msgid "Twitter Slider Icon Color"
+msgstr ""
+
+#: ../theme-options.php:1145
+msgid "Specify the twitter slider shortcode icon color."
+msgstr ""
+
+#: ../theme-options.php:1158
+msgid "Service Icon Color"
+msgstr ""
+
+#: ../theme-options.php:1159
+msgid "Specify the service shortcode icon color."
+msgstr ""
+
+#: ../theme-options.php:1172
+msgid "Recent Post Read Link Color"
+msgstr ""
+
+#: ../theme-options.php:1173
+msgid "Specify the recent post shortcode read more link color."
+msgstr ""
+
+#: ../theme-options.php:1186
+msgid "Recent Post Read Link Hover Color"
+msgstr ""
+
+#: ../theme-options.php:1187
+msgid "Specify the recent post shortcode read more link hover color."
+msgstr ""
+
+#: ../theme-options.php:1200
+msgid "Recent Post Read Link Hover Background Color"
+msgstr ""
+
+#: ../theme-options.php:1201
+msgid ""
+"Specify the recent post shortcode read more link hover background color."
+msgstr ""
+
+#: ../theme-options.php:1214
+msgid "Project Filter Text Color"
+msgstr ""
+
+#: ../theme-options.php:1215
+msgid "Specify the portfolio shortcode filter text color."
+msgstr ""
+
+#: ../theme-options.php:1228
+msgid "Project Filter Text Hover Color"
+msgstr ""
+
+#: ../theme-options.php:1229
+msgid "Specify the portfolio shortcode filter text hover color."
+msgstr ""
+
+#: ../theme-options.php:1242
+msgid "Project Overlay Background Color"
+msgstr ""
+
+#: ../theme-options.php:1243
+msgid "Specify the portfolio shortcode project overlay background color."
+msgstr ""
+
+#: ../theme-options.php:1256
+msgid "Project Overlay Background Opacity"
+msgstr ""
+
+#: ../theme-options.php:1257
+msgid "Specify the portfolio shortcode project overlay background opacity."
+msgstr ""
+
+#: ../theme-options.php:1270
+msgid "Project Links Color"
+msgstr ""
+
+#: ../theme-options.php:1271
+msgid "Specify the portfolio shortcode action links color."
+msgstr ""
+
+#: ../theme-options.php:1284
+msgid "Project Links Hover Color"
+msgstr ""
+
+#: ../theme-options.php:1285
+msgid "Specify the portfolio shortcode action links hover color."
+msgstr ""
+
+#: ../theme-options.php:1298
+msgid "Project Links Hover Background Color"
+msgstr ""
+
+#: ../theme-options.php:1299
+msgid "Specify the portfolio shortcode action links background color."
+msgstr ""
+
+#: ../theme-options.php:1312
+msgid "Project Load Button Icon Color"
+msgstr ""
+
+#: ../theme-options.php:1313
+msgid "Specify the portfolio shortcode load button icon color."
+msgstr ""
+
+#: ../theme-options.php:1326
+msgid "Project Load Button Icon Hover Color"
+msgstr ""
+
+#: ../theme-options.php:1327
+msgid "Specify the portfolio shortcode load button icon hover color."
+msgstr ""
+
+#: ../theme-options.php:1340
+msgid "Media Overlay Background Color"
+msgstr ""
+
+#: ../theme-options.php:1341
+msgid "Specify the media overlay background color."
+msgstr ""
+
+#: ../theme-options.php:1354
+msgid "Media Overlay Background Opacity"
+msgstr ""
+
+#: ../theme-options.php:1355
+msgid "Specify the media overlay background opacity."
+msgstr ""
+
+#: ../theme-options.php:1368
+msgid "Media Link Color"
+msgstr ""
+
+#: ../theme-options.php:1369
+msgid "Specify the media link color."
+msgstr ""
+
+#: ../theme-options.php:1382
+msgid "Media Link Background Color"
+msgstr ""
+
+#: ../theme-options.php:1383
+msgid "Specify the media link background color."
+msgstr ""
+
+#: ../theme-options.php:1396
+msgid "Media Link Hover Color"
+msgstr ""
+
+#: ../theme-options.php:1397
+msgid "Specify the media link hover color."
+msgstr ""
+
+#: ../theme-options.php:1412
+msgid "Custom Google Fonts"
+msgstr ""
+
+#: ../theme-options.php:1413
+msgid ""
+"Below you can customize the fonts used on several elements throughout the "
+"site by choosing a font from the Google Fonts directory.<br>\n"
+"Choose a font family and optionally choose the font-variant. If you do not "
+"choose a font-variant, then the regular (400) font will be used.<br>\n"
+"Leave the option blank to use the theme default font which you can see noted "
+"beside each option. Some options defaults to another option, while others "
+"have independent default font."
+msgstr ""
+
+#: ../theme-options.php:1429
+msgid "Body Font"
+msgstr ""
+
+#: ../theme-options.php:1430
+msgid ""
+"Choose here the body font family.<br>\n"
+"<strong>Default:</strong> \"Raleway\", \"Helvetica Neue\", Helvetica, Arial, "
+"sans-serif"
+msgstr ""
+
+#: ../theme-options.php:1445
+msgid "Headings Default Font"
+msgstr ""
+
+#: ../theme-options.php:1446
+msgid ""
+"Choose here the default heading style font family.<br>\n"
+"<strong>Default:</strong> \"Raleway\", \"Helvetica Neue\", Helvetica, Arial, "
+"sans-serif"
+msgstr ""
+
+#: ../theme-options.php:1461
+msgid "Headings Alternate Font"
+msgstr ""
+
+#: ../theme-options.php:1462
+msgid ""
+"Choose here the alternative heading style font family.<br>\n"
+"<strong>Default:</strong> \"Novecento Sans Wide\", \"Helvetica Neue\", "
+"Helvetica, Arial, sans-serif"
+msgstr ""
+
+#: ../theme-options.php:1477
+msgid "Blockquote Font"
+msgstr ""
+
+#: ../theme-options.php:1478
+msgid ""
+"Choose here the blockquote font family.<br>\n"
+"<strong>Default:</strong> \"Droid Serif\", Georgia, Times, \"Times New Roman"
+"\", serif"
+msgstr ""
+
+#: ../theme-options.php:1493
+msgid "Splash Intro Font"
+msgstr ""
+
+#: ../theme-options.php:1494
+msgid ""
+"Choose here the splash slider intro text font family.<br>\n"
+"<strong>Default:</strong> Headings Default Font"
+msgstr ""
+
+#: ../theme-options.php:1509
+msgid "Splash Headline Font"
+msgstr ""
+
+#: ../theme-options.php:1510
+msgid ""
+"Choose here the splash slider headline text font family.<br>\n"
+"<strong>Default:</strong> \"Novecento Sans Wide\", \"Helvetica Neue\", "
+"Helvetica, Arial, sans-serif"
+msgstr ""
+
+#: ../theme-options.php:1525
+msgid "Splash Description Font"
+msgstr ""
+
+#: ../theme-options.php:1526
+msgid ""
+"Choose here the splash slider description text font family.<br>\n"
+"<strong>Default:</strong> Body Font"
+msgstr ""
+
+#: ../theme-options.php:1541
+msgid "Splash Feedback Font"
+msgstr ""
+
+#: ../theme-options.php:1542
+msgid ""
+"Choose here the splash feedback text font family.<br>\n"
+"<strong>Default:</strong> Body Font"
+msgstr ""
+
+#: ../theme-options.php:1557
+msgid "Section Title Font"
+msgstr ""
+
+#: ../theme-options.php:1558
+msgid ""
+"Choose here the section title font family.<br>\n"
+"<strong>Default:</strong> \"Novecento Sans Wide\", \"Helvetica Neue\", "
+"Helvetica, Arial, sans-serif"
+msgstr ""
+
+#: ../theme-options.php:1573
+msgid "Section Title Subtitle Font"
+msgstr ""
+
+#: ../theme-options.php:1574
+msgid ""
+"Choose here the section title subtitle font family.<br>\n"
+"<strong>Default:</strong> \"Raleway\", \"Helvetica Neue\", Helvetica, Arial, "
+"sans-serif"
+msgstr ""
+
+#: ../theme-options.php:1589
+msgid "Section Subtitle Font"
+msgstr ""
+
+#: ../theme-options.php:1590
+msgid ""
+"Choose here the section subtitle font family.<br>\n"
+"<strong>Default:</strong> \"Novecento Sans Wide\", \"Helvetica Neue\", "
+"Helvetica, Arial, sans-serif"
+msgstr ""
+
+#: ../theme-options.php:1605
+msgid "Section Subtitle Subtitle Font"
+msgstr ""
+
+#: ../theme-options.php:1606
+msgid ""
+"Choose here the section subtitle subtitle font family.<br>\n"
+"<strong>Default:</strong> \"Raleway\", \"Helvetica Neue\", Helvetica, Arial, "
+"sans-serif"
+msgstr ""
+
+#: ../theme-options.php:1621
+msgid "Section Separator Title Font"
+msgstr ""
+
+#: ../theme-options.php:1622
+msgid ""
+"Choose here the section separator title font family.<br>\n"
+"<strong>Default:</strong> \"Novecento Sans Wide\", \"Helvetica Neue\", "
+"Helvetica, Arial, sans-serif"
+msgstr ""
+
+#: ../theme-options.php:1637
+msgid "Section Separator Title Subtitle Font"
+msgstr ""
+
+#: ../theme-options.php:1638
+msgid ""
+"Choose here the section separator title subtitle font family.<br>\n"
+"<strong>Default:</strong> \"Raleway\", \"Helvetica Neue\", Helvetica, Arial, "
+"sans-serif"
+msgstr ""
+
+#: ../theme-options.php:1653
+msgid "Page Title Font"
+msgstr ""
+
+#: ../theme-options.php:1654
+msgid ""
+"Choose here the page title font family.<br>\n"
+"<strong>Default:</strong> \"Novecento Sans Wide\", \"Helvetica Neue\", "
+"Helvetica, Arial, sans-serif"
+msgstr ""
+
+#: ../theme-options.php:1669
+msgid "Page Title Subtitle Font"
+msgstr ""
+
+#: ../theme-options.php:1670
+msgid ""
+"Choose here the page title subtitle font family.<br>\n"
+"<strong>Default:</strong> \"Raleway\", \"Helvetica Neue\", Helvetica, Arial, "
+"sans-serif"
+msgstr ""
+
+#: ../theme-options.php:1685
+msgid "Main Navigation Font"
+msgstr ""
+
+#: ../theme-options.php:1686
+msgid ""
+"Choose here the main navigation links font family.<br>\n"
+"<strong>Default:</strong> Body Font"
+msgstr ""
+
+#: ../theme-options.php:1701
+msgid "Footer Text Font"
+msgstr ""
+
+#: ../theme-options.php:1702
+msgid ""
+"Choose here the footer text font family.<br>\n"
+"<strong>Default:</strong> Body Font"
+msgstr ""
+
+#: ../theme-options.php:1717
+msgid "Footer Widget Title Font"
+msgstr ""
+
+#: ../theme-options.php:1718
+msgid ""
+"Choose here the footer widget title font family.<br>\n"
+"<strong>Default:</strong> \"Novecento Sans Wide\", \"Helvetica Neue\", "
+"Helvetica, Arial, sans-serif"
+msgstr ""
+
+#: ../theme-options.php:1733
+msgid "Button Font"
+msgstr ""
+
+#: ../theme-options.php:1734
+msgid ""
+"Choose here the button font family.<br>\n"
+"<strong>Default:</strong> Body Font"
+msgstr ""
+
+#: ../theme-options.php:1749
+msgid "Post Title Font"
+msgstr ""
+
+#: ../theme-options.php:1750
+msgid ""
+"Choose here the post title font family.<br>\n"
+"<strong>Default:</strong> \"Novecento Sans Wide\", \"Helvetica Neue\", "
+"Helvetica, Arial, sans-serif"
+msgstr ""
+
+#: ../theme-options.php:1765
+msgid "Post Comments Reply Title Font"
+msgstr ""
+
+#: ../theme-options.php:1766
+msgid ""
+"Choose here the post comments reply title font family.<br>\n"
+"<strong>Default:</strong> \"Novecento Sans Wide\", \"Helvetica Neue\", "
+"Helvetica, Arial, sans-serif"
+msgstr ""
+
+#: ../theme-options.php:1781
+msgid "Post Comments Count Font"
+msgstr ""
+
+#: ../theme-options.php:1782
+msgid ""
+"Choose here the post comments count font family.<br>\n"
+"<strong>Default:</strong> \"Novecento Sans Wide\", \"Helvetica Neue\", "
+"Helvetica, Arial, sans-serif"
+msgstr ""
+
+#: ../theme-options.php:1797
+msgid "Post Comments Name Font"
+msgstr ""
+
+#: ../theme-options.php:1798
+msgid ""
+"Choose here the post comments author name font family.<br>\n"
+"<strong>Default:</strong> \"Novecento Sans Wide\", \"Helvetica Neue\", "
+"Helvetica, Arial, sans-serif"
+msgstr ""
+
+#: ../theme-options.php:1813
+msgid "Team Popup Name Font"
+msgstr ""
+
+#: ../theme-options.php:1814
+msgid ""
+"Choose here the team shortcode popup member name font family.<br>\n"
+"<strong>Default:</strong> \"Novecento Sans Wide\", \"Helvetica Neue\", "
+"Helvetica, Arial, sans-serif"
+msgstr ""
+
+#: ../theme-options.php:1829
+msgid "Team Popup Role Font"
+msgstr ""
+
+#: ../theme-options.php:1830
+msgid ""
+"Choose here the team shortcode popup member role font family.<br>\n"
+"<strong>Default:</strong> \"Raleway\", \"Helvetica Neue\", Helvetica, Arial, "
+"sans-serif"
+msgstr ""
+
+#: ../theme-options.php:1845
+msgid "Pricing Table Name Font"
+msgstr ""
+
+#: ../theme-options.php:1846
+msgid ""
+"Choose here the pricing table shortcode name font family.<br>\n"
+"<strong>Default:</strong> Headings Default Font"
+msgstr ""
+
+#: ../theme-options.php:1861
+msgid "Pricing Table Price Font"
+msgstr ""
+
+#: ../theme-options.php:1862
+msgid ""
+"Choose here the pricing table shortcode price font family.<br>\n"
+"<strong>Default:</strong> \"Novecento Sans Wide\", \"Helvetica Neue\", "
+"Helvetica, Arial, sans-serif"
+msgstr ""
+
+#: ../theme-options.php:1877
+msgid "Pricing Table Price Description Font"
+msgstr ""
+
+#: ../theme-options.php:1878
+msgid ""
+"Choose here the pricing table shortcode price description font family.<br>\n"
+"<strong>Default:</strong> \"Raleway\", \"Helvetica Neue\", Helvetica, Arial, "
+"sans-serif"
+msgstr ""
+
+#: ../theme-options.php:1893
+msgid "Call to Action Headline Font"
+msgstr ""
+
+#: ../theme-options.php:1894
+msgid ""
+"Choose here the call to action shortcode headline font family.<br>\n"
+"<strong>Default:</strong> Headings Default Font"
+msgstr ""
+
+#: ../theme-options.php:1909
+msgid "Counter Number Font"
+msgstr ""
+
+#: ../theme-options.php:1910
+msgid ""
+"Choose here the counter shortcode number font family.<br>\n"
+"<strong>Default:</strong> \"Novecento Sans Wide\", \"Helvetica Neue\", "
+"Helvetica, Arial, sans-serif"
+msgstr ""
+
+#: ../theme-options.php:1925
+msgid "Slider Media Caption Font"
+msgstr ""
+
+#: ../theme-options.php:1926
+msgid ""
+"Choose here the slider media caption font family.<br>\n"
+"<strong>Default:</strong> \"Novecento Sans Wide\", \"Helvetica Neue\", "
+"Helvetica, Arial, sans-serif"
+msgstr ""
+
+#: ../theme-options.php:1941
+msgid "Recent Post Title Font"
+msgstr ""
+
+#: ../theme-options.php:1942
+msgid ""
+"Choose here the recent post title shortcode font family.<br>\n"
+"<strong>Default:</strong> \"Novecento Sans Wide\", \"Helvetica Neue\", "
+"Helvetica, Arial, sans-serif"
+msgstr ""
+
+#: ../theme-options.php:1957
+msgid "Testimonial Font"
+msgstr ""
+
+#: ../theme-options.php:1958
+msgid ""
+"Choose here the testimonial shortcode text font family.<br>\n"
+"<strong>Default:</strong> \"Raleway\", \"Helvetica Neue\", Helvetica, Arial, "
+"sans-serif"
+msgstr ""
+
+#: ../theme-options.php:1973
+msgid "Tweet Text Font"
+msgstr ""
+
+#: ../theme-options.php:1974
+msgid ""
+"Choose here the twitter shortcode text font family.<br>\n"
+"<strong>Default:</strong> \"Raleway\", \"Helvetica Neue\", Helvetica, Arial, "
+"sans-serif"
+msgstr ""
+
+#: ../theme-options.php:1989
+msgid "Include Twitter Text Plugin"
+msgstr ""
+
+#: ../theme-options.php:1990
+msgid ""
+"Choose whether to load the twitter-text.js (https://github.com/twitter/"
+"twitter-text-js) library used for proper autolinking and extraction for "
+"URLs, usernames, lists, and hashtags. This will add an additional 35 "
+"kilobytes of script to load on your page. Just leave it off if you're not "
+"sure what this is for, or you don't need international language support on "
+"your Tweets."
+msgstr ""
+
+#: ../theme-options.php:2004
+msgid "Twitter API Keys"
+msgstr ""
+
+#: ../theme-options.php:2005
+msgid ""
+"Before using Twitter widgets throughout the site, you need to register your "
+"API keys by following the instructions below.\n"
+"<ol>\n"
+"  <li>Go to <a>http://dev.twitter.com/apps</a> and sign in with your Twitter "
+"account.</li>\n"
+"  <li>Create a new application by clicking the button on the right hand side."
+"</li>\n"
+"  <li>Once you've created the app, scroll down the application's details "
+"page to find the OAuth section.</li>\n"
+"  <li>Copy the consumer secret and consumer key into the fields below.</li>\n"
+"  <li>Then click the Create Access Token button at the bottom of the page.</"
+"li>\n"
+"  <li>Copy the Access token and Access token secret and paste it into the "
+"fields below.</li>\n"
+"</ol>"
+msgstr ""
+
+#: ../theme-options.php:2027
+msgid "Twitter API Consumer Key"
+msgstr ""
+
+#: ../theme-options.php:2042
+msgid "Twitter API Consumer Secret"
+msgstr ""
+
+#: ../theme-options.php:2057
+msgid "Twitter API Access Token"
+msgstr ""
+
+#: ../theme-options.php:2072
+msgid "Twitter API Access Token Secret"
+msgstr ""
+
+#: ../theme-options.php:2088
+msgid ""
+"Enter your Envato Market credentials below to access the demo content "
+"importer and get automatic theme update notifications directly from "
+"WordPress admin."
+msgstr ""
+
+#: ../theme-options.php:2102
+msgid "Envato Username"
+msgstr ""
+
+#: ../theme-options.php:2117
+msgid "Envato API Key"
+msgstr ""
+
+#: ../theme-options.php:2132
+msgid "Item Purchase Code"
+msgstr ""
+
+#: ../theme-options.php:2147
+msgid "Show Preloader"
+msgstr ""
+
+#: ../theme-options.php:2148
+msgid "Choose here whether to show the website preloader."
+msgstr ""
+
+#: ../theme-options.php:2162
+msgid "Preloader Style"
+msgstr ""
+
+#: ../theme-options.php:2163
+msgid "Choose here the custom style to apply to the preloader."
+msgstr ""
+
+#: ../theme-options.php:2177
+msgid "Favicon"
+msgstr ""
+
+#: ../theme-options.php:2178
+msgid "Upload here your favicon. Recommended formats are PNG/ICO"
+msgstr ""
+
+#: ../theme-options.php:2193
+msgid "Specify here your custom CSS styles to be used throughout the site."
+msgstr ""

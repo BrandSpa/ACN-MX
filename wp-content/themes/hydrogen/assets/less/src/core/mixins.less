@@ -1,0 +1,156 @@
+
+.title-font-sizes( @size; @tag: 3 ) when ( @tag > 0 ) {
+	.title-font-sizes( @size; @tag - 1 );
+	h@{tag} {
+		&.section-title, 
+		&.section-subtitle, 
+		&.section-separator-title, 
+		&.page-title {
+			@var: "h@{tag}-font-size-@{size}";
+			font-size: @@var;
+		}
+	}
+}
+
+.posts-wrap-spacing( @size ) {
+	margin-bottom: 2 * @size;
+	padding-bottom: 2 * @size;
+
+	&:last-child {
+		margin-bottom: @size;
+	}
+}
+
+.post-footer-row-spacing( @size ) {
+	padding: 2 * @size 0;
+
+	&.post-footer-row-sm {
+		padding: 1.5 * @size 0;
+	}
+	&.post-footer-row-xs {
+		padding: @size 0;
+	}
+}
+
+.spacer( @size; @increments: 10; @max: 140; ) when( @size <= @max ) {
+	.spacer-@{size} {
+		margin: unit(round(@size / 2), px)  0;
+	}
+	.spacer( @size + @increments; @increments; @max );
+}
+
+.section-row-padding( @size ) {
+	@var-name: "section-row-padding-size-@{size}";
+	@padding-size: @@var-name;
+
+	.section-row {
+		padding: @padding-size 0;
+
+		&.quarter-padding-top {
+			padding-top: round(@padding-size * 0.25);
+		}
+
+		&.quarter-padding-bottom {
+			padding-bottom: round(@padding-size * 0.25);
+		}
+
+		&.half-padding-top {
+			padding-top: round(@padding-size * 0.5);
+		}
+
+		&.half-padding-bottom {
+			padding-bottom: round(@padding-size * 0.5);
+		}
+
+		&.three-quarters-padding-top {
+			padding-top: round(@padding-size * 0.75);
+		}
+
+		&.three-quarters-padding-bottom {
+			padding-bottom: round(@padding-size * 0.75);
+		}
+	}
+}
+
+.property-shadow( @prop, @color, @amount ) when (lightness(@color) >= 50%) {
+	@{prop}: darken(@color, @amount);
+}
+
+.property-shadow( @prop, @color, @amount ) when (lightness(@color) < 50%) {
+	@{prop}: lighten(@color, @amount);
+}
+
+.overlay-box( @position: absolute ) {
+	position: @position;
+	left: 0; top: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.position-center( @width, @height ) {
+	left: 50%; top: 50%;
+	margin-left: round(@width / -2);
+	margin-top: round(@height / -2);
+}
+
+.vertical-center( @target; @font-size-restore; ) {
+	font-size: 0;
+
+	&:before {
+		content: '';
+		height: 100%;
+		display: inline-block;
+		vertical-align: middle;
+	}
+
+	@{target} {
+		display: inline-block;
+		vertical-align: middle;
+		font-size: @font-size-restore;
+	}
+}
+
+.project-grids(@container-width, @gutter, @columns) {
+	@column-width: ( ( @container-width + @gutter - ( @columns * @gutter ) ) / @columns ) / @container-width;
+	@gutter-width: @gutter / @container-width;
+	@gutter-calc: @gutter - ( @gutter / @columns );
+	@column-calc: 100% / @columns;
+
+	.items {
+		.project, 
+		.grid-sizer {
+			width: percentage( @column-width );
+		}
+
+		.gutter-sizer {
+			width: percentage( @gutter-width );
+		}
+
+		.csscalc & {
+			.project, 
+			.grid-sizer {
+				width: ~"-webkit-calc(@{column-calc} - @{gutter-calc})";
+				width: ~"calc(@{column-calc} - @{gutter-calc})";
+			}
+
+			.gutter-sizer {
+				width: @gutter;
+			}
+		}
+	}
+}
+
+.fit-icon(@size) {
+	.size(@size; @size);
+	line-height: @size;
+}
+
+.spin-loader( @width; @height; @bg-color ) {
+	.size( @width; @height );
+	position: absolute;
+	.position-center( @width; @height );
+	background-color: @bg-color;
+	border-radius: 50%;  
+	-webkit-animation: spinloader 1.0s infinite ease-in-out;
+	animation: spinloader 1.0s infinite ease-in-out;
+}

@@ -1,0 +1,1 @@
+<div class="flickr-feed" data-flickr-id="<?php echo $flickr_id ?>" data-limit="<?php echo $limit ?>"></div>

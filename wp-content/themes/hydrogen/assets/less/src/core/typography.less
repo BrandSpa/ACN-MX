@@ -1,0 +1,277 @@
+
+/* ==========================================================================
+	Body
+============================================================================= */
+
+html, body {
+	height: 100%;
+}
+
+body {
+	font-weight: 300;
+	font-family: @body-font-family;
+	min-width: 320px;
+}
+
+/* ==========================================================================
+	Spin Loader
+============================================================================= */
+
+@-webkit-keyframes spinloader {
+	0% { -webkit-transform: scale(0.0) }
+	100% {
+		-webkit-transform: scale(1.0);
+		opacity: 0;
+	}
+}
+
+@keyframes spinloader {
+	0% { 
+		transform: scale(0.0);
+		-webkit-transform: scale(0.0);
+	}
+	100% {
+		transform: scale(1.0);
+		-webkit-transform: scale(1.0);
+		opacity: 0;
+	}
+}
+
+/* ==========================================================================
+	Site Loader
+============================================================================= */
+
+.site-loader {
+	.overlay-box( fixed );
+	z-index: 9999;
+	background-color: #fff;
+
+	&:before {
+		content: '';
+		.spin-loader( 56px; 56px; #808080 );
+	}
+}
+
+/* ==========================================================================
+	Responsive Image
+============================================================================= */
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+#map_canvas img,
+.google-maps img {
+	max-width: none;
+}
+
+/* ==========================================================================
+	Typography
+============================================================================= */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: @headings-default-font-family;
+	font-weight: @headings-default-font-weight;
+
+	&.alt-style {
+		font-family: @headings-alt-font-family;
+		font-weight: @headings-alt-font-weight;
+	}
+}
+
+b, strong {
+	color: #000;
+	font-weight: @headings-default-font-weight;
+}
+
+.lead {
+	line-height: 1.6;
+	font-weight: 300;
+	margin-bottom: 60px;
+	font-size: @font-size-base + 4px;
+
+	@media (min-width: 768px) {
+		font-size: @font-size-base + 8px;
+	}
+}
+
+.fa, .gi {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+a {
+	.transition(all .2s @ease-out-quad);
+	&, &:hover, &:focus {
+		text-decoration: none;
+	}
+}
+
+blockquote {
+	margin: 0;
+	padding: 0;
+	border: none;
+
+	p {
+		font-style: italic;
+		&, &:before, &:after {
+			font-weight: @blockquote-font-weight;
+			font-family: @blockquote-font-family;
+		}
+
+		&:before {
+			content: '\201C';
+		}
+
+		&:after {
+			content: '\201D';
+		}
+	}
+}
+
+.img-stretched {
+	width: 100%;
+	height: auto;
+}
+
+.no-margin-top {
+	margin-top: 0 !important;
+}
+
+.no-margin-bottom {
+	margin-bottom: 0 !important;
+}
+
+.no-padding-top {
+	padding-top: 0 !important;
+}
+
+.no-padding-bottom {
+	padding-bottom: 0 !important;
+}
+
+/* ==========================================================================
+	Text Styles
+============================================================================= */
+
+.text-light {
+	font-weight: 300;
+}
+
+.text-normal {
+	font-weight: 400;
+}
+
+.text-semibold {
+	font-weight: 600;
+}
+
+.text-bold {
+	font-weight: 700;
+}
+
+.text-italic {
+	font-style: italic;
+}
+
+/* ==========================================================================
+	Text Colors
+============================================================================= */
+
+.text-primary {
+	color: @brand-primary !important;
+}
+
+.text-success {
+	color: @brand-success !important;
+}
+
+.text-info {
+	color: @brand-info !important;
+}
+
+.text-warning {
+	color: @brand-warning !important;
+}
+
+.text-danger {
+	color: @brand-danger !important;
+}
+
+/* ==========================================================================
+	List Styles
+============================================================================= */
+
+.social-list {
+	ul {
+		font-size: 0;
+		&:extend(ul.plain-list all);
+	}
+
+	li {
+		display: inline-block;
+
+		& + li {
+			margin-left: 4px;
+		}
+	}
+
+	a {
+		display: block;
+		font-size: @font-size-base + 2;
+		text-align: center;
+	}
+}
+
+ul.plain-list {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul.arrow-list, 
+ul.check-list {
+	list-style: none;
+	li:before {
+		display: inline-block;
+		width: 40px;
+		margin-left: -40px;
+		text-align: center;
+		line-height: inherit;
+		font-family: 'FontAwesome';
+	}
+}
+
+ul.arrow-list li:before {
+	content: '\F105';
+}
+
+ul.check-list li:before {
+	font-size: @font-size-base - 1;
+	content: '\F00C';
+}
+
+/* ==========================================================================
+	Spacers
+============================================================================= */
+
+[class*="spacer-"] {
+	.clearfix();
+}
+
+[class*="spacer-"].bordered {
+	height: 1px;
+	.property-shadow( background; @body-bg; 9% );
+}
+
+.spacer( 10, 10, 140 );
+
+/* ==========================================================================
+	Miscs.
+============================================================================= */
+
+.touch {
+	.user-select(none);
+	-webkit-touch-callout: none;
+}

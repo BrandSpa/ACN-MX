@@ -1,0 +1,33 @@
+//
+// Navs
+// --------------------------------------------------
+
+
+// Base class
+// --------------------------------------------------
+
+.nav {
+  // Open dropdowns
+  .open > a {
+    &,
+    &:hover,
+    &:focus {
+      border-color: @link-color;
+    }
+  }
+}
+
+// Pills
+// -------------------------
+.nav-pills {
+  > li {
+    // Active state
+    &.active > a {
+      &,
+      &:hover,
+      &:focus {
+        background-color: @nav-pills-active-link-hover-bg;
+      }
+    }
+  }
+}

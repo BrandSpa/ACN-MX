@@ -1,0 +1,84 @@
+@import "mixins.less";
+
+// Site loader
+.site-loader.style-@{style-name} {
+	background-color: @background-color;
+	&:before {
+		.property-shadow( background-color; @background-color; 50% );
+	}
+}
+
+// Site header
+.site-header.style-@{style-name} {
+	.header-inner {
+		background-color: @header-bg;
+	}
+
+	.main-nav {
+		ul li {
+			.property-shadow( border-top-color; @header-bg; 9% );
+
+			a {
+				color: @header-nav-link-color;
+			}
+
+			a:hover, 
+			&.active > a, 
+			&.current-menu-item > a {
+				color: @brand-primary;
+			}
+
+			.sub-toggle {
+				color: @header-sub-nav-toggle-color; ;
+				.property-shadow( border-left-color; @header-bg; 9% );
+			}
+
+			ul {
+				background-color: @header-bg;
+			}
+
+			li {
+				.property-shadow( border-color; @header-bg; 9% );
+			}
+		}
+	}
+}
+
+// Site footer
+.site-footer.style-@{style-name} {
+	background-color: @footer-background;
+
+	a {
+		color: @footer-link-color; 
+		&:focus, 
+		&:hover {
+			color: @footer-link-hover-color;
+		}
+	}
+
+	.social-list ul {
+		background-color: @footer-social-list-background;
+	}
+}
+
+// Team popup
+.team-popup-container.style-@{style-name} {
+	.team-popup-colors();
+}
+
+// Section rows
+.style-@{style-name} .section-row.shadow-bg, 
+.section .section-row.style-@{style-name}.shadow-bg {
+	.property-shadow( background; @background-color; 2% );
+}
+
+// The rest
+.style-@{style-name}, 
+.section-row.style-@{style-name}, 
+.row.style-@{style-name} {
+	.typography-defs();
+	.layout-defs();
+	.module-defs();
+	.bootstrap-defs();
+	.post-defs();
+}

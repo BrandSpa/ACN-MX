@@ -1,0 +1,420 @@
+
+//
+// Default Fonts
+//
+@raleway-ff: e('"Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif');
+@droid-serif-ff: e('"Droid Serif", Georgia, Times, "Times New Roman", serif');
+@novecento-ff: e('"Novecento Sans Wide", "Helvetica Neue", Helvetica, Arial, sans-serif');
+
+//
+// Body
+//
+@body-font-weight: 300;
+@body-font-family: @raleway-ff;
+
+& when not( @body-font-family = @raleway-ff ) {
+	body {
+		font-weight: @body-font-weight;
+		font-family: @body-font-family;
+	}
+}
+
+//
+// Buttons
+//
+@btn-font-weight: @body-font-weight;
+@btn-font-family: @body-font-family;
+
+& when not( @btn-font-family = @body-font-family ) {
+	.btn {
+		font-weight: @btn-font-weight;
+		font-family: @btn-font-family;
+	}
+}
+
+//
+// Headings Default
+//
+@headings-default-font-weight: 600;
+@headings-default-font-family: @raleway-ff;
+
+& when not( @headings-default-font-family = @raleway-ff ) {
+	h1, h2, h3, h4, h5, h6 {
+		font-weight: @headings-default-font-weight;
+		font-family: @headings-default-font-family;
+	}
+}
+
+//
+// Headings Alternate
+//
+@headings-alt-font-weight: 700;
+@headings-alt-font-family: @novecento-ff;
+
+& when not( @headings-alt-font-family = @novecento-ff ) {
+	h1, h2, h3, h4, h5, h6 {
+		&.alt-style {
+			font-weight: @headings-alt-font-weight;
+			font-family: @headings-alt-font-family;
+		}
+	}
+}
+
+//
+// Blockquote
+//
+@blockquote-font-weight: 300;
+@blockquote-font-family: @droid-serif-ff;
+
+& when not( @blockquote-font-family = @droid-serif-ff ) {
+	blockquote p {
+		&, &:before, &:after {
+			font-weight: @blockquote-font-weight;
+			font-family: @blockquote-font-family;
+		}
+	}
+}
+
+//
+// Main Nav Anchor
+//
+@main-nav-anchor-font-weight: @body-font-weight;
+@main-nav-anchor-font-family: @body-font-family;
+
+& when not( @main-nav-anchor-font-family = @body-font-family ) {
+	.main-nav ul li a {
+		font-weight: @main-nav-anchor-font-weight;
+		font-family: @main-nav-anchor-font-family;
+	}
+}
+
+//
+// Splash Feedback
+//
+@splash-feedback-font-weight: @body-font-weight;
+@splash-feedback-font-family: @body-font-family;
+
+& when not( @splash-feedback-font-family = @body-font-family ) {
+	.splash-feedback {
+		font-weight: @splash-feedback-font-weight;
+		font-family: @splash-feedback-font-family;
+	}
+}
+
+//
+// Splash Text
+//
+@splash-intro-font-weight: 600;
+@splash-intro-font-family: @body-font-family;
+
+@splash-headline-font-weight: 700;
+@splash-headline-font-family: @novecento-ff;
+
+@splash-description-font-weight: @body-font-weight;
+@splash-description-font-family: @body-font-family;
+
+.splash-text {
+
+	.splash-intro when not( @splash-intro-font-family = @body-font-family ) {
+		font-weight: @splash-intro-font-weight;
+		font-family: @splash-intro-font-family;
+	}
+
+	.splash-headline when not( @splash-headline-font-family = @novecento-ff ) {
+		font-weight: @splash-headline-font-weight;
+		font-family: @splash-headline-font-family;
+	}
+
+	.splash-description p when not( @splash-description-font-family = @body-font-family ) {
+		font-weight: @splash-description-font-weight;
+		font-family: @splash-description-font-family;
+	}
+}
+
+//
+// Section Title
+//
+@section-title-font-weight: 700;
+@section-title-font-family: @novecento-ff;
+
+& when not( @section-title-font-family = @novecento-ff ) {
+	.section-title {
+		font-weight: @section-title-font-weight;
+		font-family: @section-title-font-family;
+	}
+}
+
+@section-title-small-font-weight: 300;
+@section-title-small-font-family: @raleway-ff;
+
+& when not( @section-title-small-font-family = @raleway-ff ) {
+	.section-title small {
+		font-weight: @section-title-small-font-weight;
+		font-family: @section-title-small-font-family;
+	}
+}
+
+//
+// Section Subtitle
+//
+@section-subtitle-font-weight: 700;
+@section-subtitle-font-family: @novecento-ff;
+
+& when not( @section-subtitle-font-family = @novecento-ff ) {
+	.section-subtitle {
+		font-weight: @section-subtitle-font-weight;
+		font-family: @section-subtitle-font-family;
+	}
+}
+
+@section-subtitle-small-font-weight: 300;
+@section-subtitle-small-font-family: @raleway-ff;
+
+& when not( @section-subtitle-small-font-family = @raleway-ff ) {
+	.section-subtitle small {
+		font-weight: @section-subtitle-small-font-weight;
+		font-family: @section-subtitle-small-font-family;
+	}
+}
+
+//
+// Section Separator Title
+//
+@section-separator-title-font-weight: 700;
+@section-separator-title-font-family: @novecento-ff;
+
+& when not( @section-separator-title-font-family = @novecento-ff ) {
+	.section-separator-title {
+		font-weight: @section-separator-title-font-weight;
+		font-family: @section-separator-title-font-family;
+	}
+}
+
+@section-separator-title-small-font-weight: 300;
+@section-separator-title-small-font-family: @raleway-ff;
+
+& when not( @section-separator-title-small-font-family = @raleway-ff ) {
+	.section-separator-title small {
+		font-weight: @section-separator-title-small-font-weight;
+		font-family: @section-separator-title-small-font-family;
+	}
+}
+
+//
+// Page Title
+//
+@page-title-font-weight: 700;
+@page-title-font-family: @novecento-ff;
+
+& when not( @page-title-font-family = @novecento-ff ) {
+	.page-title {
+		font-weight: @page-title-font-weight;
+		font-family: @page-title-font-family;
+	}
+}
+
+@page-title-small-font-weight: 300;
+@page-title-small-font-family: @raleway-ff;
+
+& when not( @page-title-small-font-family = @raleway-ff ) {
+	.page-title small {
+		font-weight: @page-title-small-font-weight;
+		font-family: @page-title-small-font-family;
+	}
+}
+
+//
+// Team Popup Name
+//
+@team-popup-name-font-weight: 700;
+@team-popup-name-font-family: @novecento-ff;
+
+& when not( @team-popup-name-font-family = @novecento-ff ) {
+	.team-popup .team-name {
+		font-weight: @team-popup-name-font-weight;
+		font-family: @team-popup-name-font-family;
+	}
+}
+
+//
+// Team Popup Role
+//
+@team-popup-role-font-weight: 300;
+@team-popup-role-font-family: @raleway-ff;
+
+& when not( @team-popup-role-font-family = @raleway-ff ) {
+	.team-popup .team-name small {
+		font-weight: @team-popup-role-font-weight;
+		font-family: @team-popup-role-font-family;
+	}
+}
+
+//
+// Counter
+//
+@counter-number-font-weight: 600;
+@counter-number-font-family: @novecento-ff;
+
+& when not( @counter-number-font-family = @novecento-ff ) {
+	.counter .number {
+		font-weight: @counter-number-font-weight;
+		font-family: @counter-number-font-family;
+	}
+}
+
+//
+// Testimonial
+//
+@testimonial-font-weight: 300;
+@testimonial-font-family: @raleway-ff;
+
+& when not( @testimonial-font-family = @raleway-ff ) {
+	.testimonial blockquote p {
+		font-weight: @testimonial-font-weight;
+		font-family: @testimonial-font-family;
+	}
+}
+
+//
+// Tweets
+//
+@tweet-text-font-weight: 300;
+@tweet-text-font-family: @raleway-ff;
+
+& when not( @tweet-text-font-family = @raleway-ff ) {
+	.tweet .tweet_text {
+		font-weight: @tweet-text-font-weight;
+		font-family: @tweet-text-font-family;
+	}
+}
+
+//
+// Call to Action
+//
+@call-to-action-headline-font-weight: 300;
+@call-to-action-headline-font-family: @headings-default-font-family;
+
+& when not( @call-to-action-headline-font-family = @headings-default-font-family ) {
+	.call-to-action .headline {
+		font-weight: @call-to-action-headline-font-weight;
+		font-family: @call-to-action-headline-font-family;
+	}
+}
+
+//
+// Pricing Table
+//
+@pricing-table-name-font-weight: 300;
+@pricing-table-name-font-family: @headings-default-font-family;
+
+@pricing-table-price-font-weight: 700;
+@pricing-table-price-font-family: @novecento-ff;
+
+@pricing-table-price-description-font-weight: 300;
+@pricing-table-price-description-font-family: @raleway-ff;
+
+.pricing-table {
+	.name when not( @pricing-table-name-font-family = @headings-default-font-family ) {
+		font-weight: @pricing-table-name-font-weight;
+		font-family: @pricing-table-name-font-family;
+	}
+
+	.price when not( @pricing-table-price-font-family = @novecento-ff ) {
+		font-weight: @pricing-table-price-font-weight;
+		font-family: @pricing-table-price-font-family;
+	}
+
+	.price small when not( @pricing-table-price-description-font-family = @raleway-ff ) {
+		font-weight: @pricing-table-price-description-font-weight;
+		font-family: @pricing-table-price-description-font-family;
+	}
+}
+
+//
+// Slider Caption
+//
+@slider-media-caption-font-weight: 700;
+@slider-media-caption-font-family: @novecento-ff;
+
+& when not( @slider-media-caption-font-family = @novecento-ff ) {
+	.slider-media figure figcaption {
+		font-weight: @slider-media-caption-font-weight;
+		font-family: @slider-media-caption-font-family;
+	}
+}
+
+//
+// Recent Post Title
+//
+@recent-post-title-font-weight: 700;
+@recent-post-title-font-family: @novecento-ff;
+
+& when not( @recent-post-title-font-family = @novecento-ff ) {
+	.recent-post-body .post-title {
+		font-weight: @recent-post-title-font-weight;
+		font-family: @recent-post-title-font-family;
+	}
+}
+
+//
+// Post Title
+//
+@post-title-font-weight: 700;
+@post-title-font-family: @novecento-ff;
+
+& when not( @post-title-font-family = @novecento-ff ) {
+	.post-header .post-title {
+		font-weight: @post-title-font-weight;
+		font-family: @post-title-font-family;
+	}
+}
+
+//
+// Post Comments
+//
+@post-comments-reply-title-font-weight: 700;
+@post-comments-reply-title-font-family: @novecento-ff;
+
+@post-comments-name-font-weight: 700;
+@post-comments-name-font-family: @novecento-ff;
+
+@post-comments-count-font-weight: 700;
+@post-comments-count-font-family: @novecento-ff;
+
+.post-comments {
+	.comment-reply-title when not( @post-comments-reply-title-font-family = @novecento-ff ) {
+		font-weight: @post-comments-reply-title-font-weight;
+		font-family: @post-comments-reply-title-font-family;
+	}
+
+	.comment-count when not( @post-comments-count-font-family = @novecento-ff ) {
+		font-weight: @post-comments-count-font-weight;
+		font-family: @post-comments-count-font-family;
+	}
+
+	.comment-list li .comment-text .name when not( @post-comments-name-font-family = @novecento-ff ) {
+		font-weight: @post-comments-name-font-weight;
+		font-family: @post-comments-name-font-family;
+	}
+}
+
+//
+// Footer
+//
+@footer-text-font-weight: @body-font-weight;
+@footer-text-font-family: @body-font-family;
+
+@footer-widget-title-font-weight: 600;
+@footer-widget-title-font-family: @novecento-ff;
+
+.site-footer {
+	.footer-text when not( @footer-text-font-family = @body-font-family ) {
+		font-weight: @footer-text-font-weight;
+		font-family: @footer-text-font-family;
+	}
+
+	.footer-widgets .widget-title when not( @footer-widget-title-font-family = @novecento-ff ) {
+		font-weight: @footer-widget-title-font-weight;
+		font-family: @footer-widget-title-font-family;
+	}
+}

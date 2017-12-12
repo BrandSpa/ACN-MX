@@ -1,0 +1,23 @@
+//
+// Buttons
+// --------------------------------------------------
+
+// Alternate buttons
+// --------------------------------------------------
+
+.btn-primary {
+  .button-variant(@btn-primary-color; @btn-primary-bg; @btn-primary-border);
+}
+
+// Link buttons
+// -------------------------
+
+// Make a button look and behave like a link
+.btn-link {
+  color: @link-color;
+
+  &:hover,
+  &:focus {
+    color: @link-hover-color;
+  }
+}

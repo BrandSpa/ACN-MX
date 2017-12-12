@@ -1,0 +1,17 @@
+//
+// List groups
+// --------------------------------------------------
+
+.list-group-item {
+  // Active class on item itself, not parent
+  &.active,
+  &.active:hover,
+  &.active:focus {
+    background-color: @list-group-active-bg;
+    border-color: @list-group-active-border;
+
+    .list-group-item-text {
+      color: @list-group-active-text-color;
+    }
+  }
+}
